@@ -1,0 +1,162 @@
+header{
+    height: 80px;
+    /* background-color: bisque; */
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+header img{
+    margin-top: 35px;
+}
+
+.singUp{
+    padding-top: 20px;
+
+}
+
+.singUp-btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    background-color: #FFC107;
+    border: none;
+    font-weight: bold;
+}
+
+
+.hero{
+    background: linear-gradient(rgba(13, 14, 14, 0.7), rgba(15, 15, 15, 0.7)), url(./images/banner_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 80vh;
+
+}
+
+.hero h1{
+    padding-top: 8rem;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.search{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+input{
+    width: 25%;
+    height: 50px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left: 10px;
+    border: none;
+}
+
+.search-btn{
+    width: 6%;
+    height: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: #FFC107;
+
+}
+
+.main-body{
+    /* background-color: bisque; */
+    padding-top: 4rem;
+}
+
+.main-body h1{
+    font-weight: bolder;
+}
+
+.card-container{
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+
+
+
+.card img{
+    height: 230px;
+    
+}
+
+.card a{
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.ShowAll{
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+footer{
+    color: black;
+    background-color: #ffc10721;
+    height: 300px;
+    padding-top: 3rem;
+}
+footer h3{
+    padding-bottom: 1rem;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    line-height: 2rem;
+
+}
+
+.ft-contant a{
+    text-decoration: none;
+    display: block;
+}
+
+.ft-first a{
+    padding-left:14rem;
+}
+
+.ft-first-title{
+    padding-left:14rem;
+
+}
+
+
+.ft-search input{
+    border-radius: 8px;
+    background-color: #ffc10721 ;
+}
+
+
+.modal-body img{
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
+.modal-body-item {
+    font-weight: bolder;
+}
+
+.modal-close{
+    background-color: red;
+    color: whitesmoke;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
